@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>JS Chess almost pre-alpha 0.001</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="css/chat.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<script src="js/libs/jquery/jquery.js"></script>
+	<script src="http://127.0.0.1:3003/socket.io/socket.io.js"></script>
+	<script src="./vars.js"></script>
+	<script src="./chat.js"></script>
+
+	<div class="loginForm">
+		<h1 class="loginTitle">Login: </h1>
+		<input class="usernameInput" type="text" maxlength="14" placeholder="Username" />
+		<input type="submit" value="Log in" class="btn btn-primary btn-block btn-large">
+	</div>
+
+	<div class="chatPanel">
+		<div class="chatArea">
+			<ul class="chatMessages"></ul>
+			<input class="inputMessage" placeholder="Type message here" />
+		</div>
+		<div class="userList">
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+		</div>
+	</div>
+
+	<p id="counter">CURRENTLY USERS: null</p>
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>JS Chess pre-alpha 0.1</title>        
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script type="text/javascript">
+            if (!window.console)
+            {
+                console = {log: function ()
+                    {
+                    }
+                };
+            }
+          
+        </script>
+    </head>
+    <body>
+        <header>
+            <h3>JS Chess</h3>
+        </header>
+        <div id="FenInDiv">
+            Fen: <br/>
+            <input type="text" id="fenIn"/>
+            <button type="button" id="SetFen">Set Position</button>
+        </div>
+
+        <script src="js/libs/jquery/jquery.js"></script>
+        <script src="js/defs.js"></script>
+        <script src="js/main.js"></script>
+        <script src="js/inits.js"></script>
+        <script src="js/board.js"></script>
+    </body>
+</html>
